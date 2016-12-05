@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{
+	font-family: "微软雅黑";
+}
+/*导航栏*/
+.navbar-brand{
+	padding: 0px 15px;
+}
+.navbar .navbar-header .navbar-brand img{
+	height: 100%;
+}
+.navbar-nav{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar-nav li a span.glyphicon{
+	padding-right: 10px;
+}
+.fill-navbar{
+	height: 50px;
+}
+/*轮播图*/
+.carousel .carousel-inner .item img{
+	width: 100%;
+}
+/*友情链接*/
+.friend-link{
+	margin-top: 50px;
+}
+.friend-link-text{
+}
+
+.friend-link .panel .panel-body{
+	font-size: 12px;
+	padding: 0px 0px 0px 15px;
+}
+
+/*页脚*/
+footer p{
+	margin-bottom: 0px;
+}

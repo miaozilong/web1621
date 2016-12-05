@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.hirebox{
+	margin-top: 30px;
+}
+.hirebox .hirebox-right{
+	margin-top: 15px;
+	padding-left: 15px;
+}
+.hirebox .panel .list-group .list-group-item a{
+	color: #333;
+}
+
+.hirebox .panel .list-group .list-group-item a:hover{
+	color: #3977ba;
+	font-weight: bold;
+}
+.hirebox .hirebox-right .hire-position{
+}
+.hirebox .hirebox-right .hire-item-divider{
+	border-bottom: 1px solid gray;
+	margin-bottom: 5px;
+}
+.hirebox-right .pageselector{
+	margin-top: 20px;
+	width: 100px;
+	float: right;
+}

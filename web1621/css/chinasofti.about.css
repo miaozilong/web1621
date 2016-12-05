@@ -1,0 +1,23 @@
+@charset "utf-8";
+.aboutbox{
+	margin-top: 30px;
+}
+.aboutbox .panel .panel-title{
+	font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.aboutbox .panel .list-group .list-group-item a{
+	color: #333;
+}
+
+.aboutbox .panel .list-group .list-group-item a:hover{
+	color: #3977ba;
+	font-weight: bold;
+}
+.aboutbox .panel .list-group .list-group-item.list-group-item-title {
+	font-size: 24px;
+}
+.aboutbox address{
+	padding-top: 26px;
+}

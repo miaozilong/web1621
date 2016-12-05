@@ -1,0 +1,9 @@
+$(function(){
+	$(".hire-item-infomation").on("hidden.bs.collapse",function(){
+		$(".btn-toggle").eq($(".hire-item-infomation").index($(this))).text("查看详情");
+	})
+	$(".hire-item-infomation").on("shown.bs.collapse",function(){
+		//让按钮文字变成收起
+		$(".btn-toggle").eq($(".hire-item-infomation").index($(this))).text("收起");
+	})
+})

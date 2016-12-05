@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*新闻页面*/
+.newsbox{
+	margin-top: 24px;
+}
+/*新闻页面的菜单*/
+
+.newsbox .panel .panel-title .glyphicon{
+	padding-right: 0.5em;
+}
+.newsbox .panel .list-group{
+	background-color: #efefef;
+}
+
+.newsbox .panel .list-group .list-group-item{
+	background-color: transparent;
+}
+
+.newsbox .panel .list-group .list-group-item a{
+	color: #333;
+}
+
+.newsbox .panel .list-group .list-group-item a:hover{
+	color: #3977ba;
+	font-weight: bold;
+}
+.newsbox-right .medialistbox .dividerline  {
+	width: 96%;
+    border-bottom: 1px dashed gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.newsbox-right .medialistbox .media  .media-heading{
+	color: #6e6e6e;
+}
+.newsbox-right .pageselector{
+	margin-top: 20px;
+	width: 100px;
+	float: right;
+}

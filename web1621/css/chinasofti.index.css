@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+/*文字广告*/
+.text-ad .ad-title{
+	color: #004796;
+}
+.text-ad .ad-content{
+	font-size: 23px;
+	color: #97918c;
+}
+.text-ad .ad-content p{
+	
+	margin-bottom: 6px;
+}
+/*媒体样式*/
+
+.mediabox{
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.media{
+	/*设置媒体的居中对齐
+	 此处设置的width属性,以后需要随着文字的个数多和少 文字的字体大小  等进行调整
+	 * */
+	padding: 15px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/*设置当屏幕小于400宽度时,让媒体的DIV的宽度不再为恒定值400px*/
+@media only screen and (max-width: 400px ) {
+	.media{
+		width: 100%;
+	}
+}
+.mediabox .media .media-body p{
+	margin-bottom: 1px;
+	font-size: 12px;
+}
+.mediabox .media .media-body .media-text-others{
+	color: #807d83;
+	text-decoration: line-through;
+}
+.mediabox .media .media-body .media-text-ours{
+	color: #5e8cc4;
+}
+
+/*演示样式*/
+.demo{
+	margin-top: 40px;
+}
+.demo .demodivider{
+	border: 1px dashed gray;
+	width: 80%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
